@@ -1,0 +1,16 @@
+
+
+1.2)
+Heute noch bedeutsame Steuer-Codes sind insbesondere
+LF (0x0A, '\n'), CR (0x0D, '\r'), TAB (0x09, '\t'), BS (0x08, '\b'), ESC (0x1B), DEL (0x7F) und NUL (0x00, '\0').
+Einige davon haben direkte Tasten auf der Tastatur (z.B. Enter → LF/CR, Tab → TAB, Backspace → BS, Esc → ESC).
+In C werden sie als '\n', '\t', '\r', '\b', '\a' oder '\0' notiert.
+
+1.3) siehe main.c!
+
+1.4) 😃😃🛳️
+
+1.5) siehe main.c!
+Alle Strings in C sind char Arrays deren Ende mit '\0' gekennzeichnet wird.
+Daher ist ein String auch immer mindestens ein Char groß.
+

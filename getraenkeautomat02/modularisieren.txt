@@ -1,0 +1,40 @@
+Erstellen eines neuen C-Moduls
+(vgl. letztes Kap. von Goll)
+
+1.) Hinzufügen einer neuen C-Quelldatei,
+	z.B. "ausgaben.c"
+
+2.) Hinzufügen einer gleichnamigen Header-
+	Datei, hier "ausgaben.h".
+	a) Kommentar vorsehen.
+	b) Sicherstellen, dass die Datei nur
+	   1x je Präpozessorlauf eingefügt wird:
+	   #pragma once
+	   bzw.
+	   #ifndef AUSGABEN_H
+	   #define AUSGABEN_H
+	   // Prototypen
+	   #endif // AUSGABEN_H
+	c) Prototyp der in dieses Modul zu 
+	   verlagernden Funktion herausschneiden
+	   und oben in den Abschnitt "Prototypen"
+	   einfügen (NICHT: herauskopieren!!)
+
+3.) In der neuen C-Datei (ausgaben.c):
+	a) Kommentar vorsehen
+	b) Standard-Header mit #include einfügen 
+	   lassen, eigentlich nur soweit tatsächlich
+	   erforderlich seitens der hierher 
+	   auszulagernden Funktionen
+	c) !! Auf jeden Fall die eigene Header-Datei
+	   einfügen:
+	   #include "ausgaben.h"
+	   Warum? - Nur so ist sichergestellt, dass
+	   die Prototypen in der Header-Datei stets 
+	   mit den Funktionsköpfen übereinstimmen!
+	d) Ggf. weitere eigene Header-Dateien einfügen,
+	   wenn von hier aus auf Funktionen weiterer
+	   Module zugegriffen wird.
+	e) Funktionsdefinition einschl. Kommentar (!!)
+	   in der Quelldatei ausschneiden und hierher
+	   (also nach "ausgaben.c") verschieben.

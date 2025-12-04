@@ -1,0 +1,20 @@
+argc = 1
+gl_a = 0
+Waehlen Sie ihr Getraenk aus:
+1) Wasser (0,50 Euro)
+2) Limonade (1,00 Euro)
+3) Bier (2,00 Euro)
+
+Geben Sie 1, 2 oder 3 ein: preis = 0
+
+Geben Sie die gewuenschte Menge ein: 
+--- Bezahlvorgang ---
+
+Es fehlen noch 1.00 Euro.
+Bitte werfen Sie ein Geldstueck ein: 
+--- Getraenkeausgabe ---
+
+Flasche 1 von 2 der Sorte 1 wurde ausgegeben.
+Flasche 2 von 2 der Sorte 1 wurde ausgegeben.
+
+Vielen Dank, bitte entnehmen Sie Ihre Getraenke.
